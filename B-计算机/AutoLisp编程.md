@@ -15,3 +15,21 @@ AutoCAD 的控制台中，如果直接输入字母，可以调用 AutoCAD 命令
 本程序中我们使用 AutoLisp 语言只写了一行语句。这行语句被圆括号 () 括起来，形成了一个所谓的 表 （也就是我们所说的“表处理语言”中的“表”）。这个 表 中有两个元素， alert 和 "Hello, world!" 。 其中 alert 是函数名，表示在这个语句中，我们要调用 alert 这个函数。 "Hello, world!" 是一个字符串（字符串是一种数据类型）。这个字符串作为 alert 这个函数的参数。
 
 ### LSP文件运行
+用文本编辑软件新建一个文本文件，命名为 ```hello_world.lsp```，在文本文件中输入如下代码
+
+```
+(defun c:hello(/)
+(alert "Hello, world!"))
+```
+打开 AutoCAD ，输入命令```appload```，加载刚创建的lsp文件，输入命令hello运行脚本。
+
+在本例中， defun 定义了一个 lisp函数 。在 AutoLisp 中，以 c: 开头的函数表示注册一条可执行的命令。本例中 c:hello 就表示注册一个命令 hello ，这样可以直接运行命令。
+
+
+```
+(defun c:hello(/ name)  
+(setq name (getstring "What's your name? "))  
+(setq msg (strcat "Hello, " name))  
+(write-line msg))
+```
+这段程序会要求输入名字，赋值给name，再将名字输出来（非）。
