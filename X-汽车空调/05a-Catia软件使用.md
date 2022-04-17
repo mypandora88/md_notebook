@@ -2,7 +2,9 @@
 CATIA是法国达索飞机公司开发的高档CAD/CAM软件。CATIA软件以其强大的曲面设计功能而在飞机、汽车、轮船等设计领域享有很高的声誉。CATIA的曲面造型功能体现在它提供了极丰富的造型工具来支持用户的造型需求。比如其特有的高次Bezier曲线曲面功能，次数能达到15，能满足特殊行业对曲面光滑性的苛刻要求。
 
 ### 安装
-英文版系统安装的时候将region里面的regional format由recommended改成chinese就能解决显示问号的问题。
+英文版win10系统安装后出现问号解决办法：
+- 将 Region 里面的 Regional format 由 Recommended 改成 Chinese
+- 将 Administrative language settings 里面的 non-Unicode 由 English 改成 Chinese
 
 ### 使用技巧
 - 可以看左下角的提示
