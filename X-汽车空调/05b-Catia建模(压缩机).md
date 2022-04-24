@@ -1,7 +1,6 @@
 ## Catia建模(压缩机)
 ### 整机模型
 图片均来自HC40电动压缩机图纸，范工绘制。  
-思路：先最小的零件组装成各组件，再各个组件组装成整个压缩机  
 ![](https://ddns.smpi.top:10000/md_attachments/Pasted%20image%2020220331100156.png)
 ![](https://ddns.smpi.top:10000/md_attachments/Pasted%20image%2020220331100311.png)
 
@@ -15,7 +14,7 @@
 ![](https://ddns.smpi.top:10000/md_attachments/Pasted%20image%2020220331085356.png)
 ##### 销钉(2个)-驱动盘定位
 ![](https://ddns.smpi.top:10000/md_attachments/Pasted%20image%2020220331085453.png)
-##### 控制器轴承
+##### 电机壳轴承
 ![](https://ddns.smpi.top:10000/md_attachments/Pasted%20image%2020220331085440.png)
 ##### 接线端子&端子密封圈
 ![](https://ddns.smpi.top:10000/md_attachments/Pasted%20image%2020220331085827.png)
