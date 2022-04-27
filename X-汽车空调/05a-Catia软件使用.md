@@ -59,7 +59,6 @@ CATIA是法国达索飞机公司开发的高档CAD/CAM软件。CATIA软件以其
 > - 角度标注 CTRL+a
 > - 半径标注 CTRL+r
 > - 直径标注 CTRL+ALT+r
-> - 基准标注 CTRL+b
 > - 格式刷 ALT+m
 
 - 装配设计
