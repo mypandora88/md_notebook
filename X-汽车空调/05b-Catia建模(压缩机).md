@@ -8,7 +8,7 @@
 ![](https://ddns.smpi.top:10000/md_attachments/Pasted%20image%2020220331085940.png)
 ##### 电机壳
 ![](https://ddns.smpi.top:10000/md_attachments/Pasted%20image%2020220331085241.png)
-##### 驱动盘垫片
+##### 电机壳垫片
 ![](https://ddns.smpi.top:10000/md_attachments/Pasted%20image%2020220331085801.png)
 ##### 定子组件
 ![](https://ddns.smpi.top:10000/md_attachments/Pasted%20image%2020220331085356.png)
