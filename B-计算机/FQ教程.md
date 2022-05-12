@@ -4,6 +4,9 @@
 ##### 一键脚本
 ```
 bash <(curl -sL https://s.hijk.art/xray.sh)
+
+最新
+wget -N --no-check-certificate https://raw.githubusercontent.com/veip007/scripts/master/xray.sh && chmod +x xray.sh && bash xray.sh
 ```
 - 配置文件在 /usr/local/etc/xray/ 下  
 - 需要每三个月更新一下证书，证书位置在 /usr/local/etc/xray/ 下  
