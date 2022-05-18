@@ -35,7 +35,7 @@ bash <(curl -sL https://s.hijk.art/trojan-go.sh)
 - 接口Lan中网关和DNS全部改为主路由地址：192.168.50.1
 - 忽略此接口的DHCP
 - 设置PASSWALL，增加节点，打开主开关，有多个节点时打开自动切换，模式选中国列表以外
-- 防火墙有lan的打开**IP动态伪装**，取消勾选**启用 SYN-flood 防御**
+- 防火墙有lan的打开**IP动态伪装**和**MSS 钳制**，取消勾选**启用 SYN-flood 防御**
 - 负载均衡：``` https://github.com/xiaorouji/openwrt-passwall/discussions/1820 ```
 
 ### iKuai设置
