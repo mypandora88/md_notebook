@@ -43,3 +43,20 @@ bash <(curl -sL https://s.hijk.art/trojan-go.sh)
 - 设置端口分流：方式选下一跳网关，网关指向openwrt，源地址选择需要翻墙的设备组
 - 认证计费里面可以选用不同的VPN协议方式，然后添加帐号密码，在端口分流里面选下一跳网关，同样能达到翻墙的目的
 
+### v2ray节点
+- 我用
+>主(155.94.156.27)：```vless://6981f016-b5af-46f4-91a3-ae97bce66f67@www.go2travel.top:443?host=www.go2travel.top&path=%2Fbanforbid&type=ws&encryption=none&security=tls&sni=www.go2travel.top#v2ray-pacificrack-main```
+>
+>备(207.2.121.113)：```vless://6981f016-b5af-46f4-91a3-ae97bce66f67@hotel.go2travel.top:443?host=hotel.go2travel.top&path=%2Fbanforbid&type=ws&encryption=none&security=tls&sni=hotel.go2travel.top#v2ray-boomer-main```
+>
+>备(104.233.162.5)：```vless://6981f016-b5af-46f4-91a3-ae97bce66f67@flight.go2travel.top:443?host=flight.go2travel.top&path=%2Fbanforbid&type=ws&encryption=none&security=tls&sni=flight.go2travel.top#flight.go2travel.top```
+
+- 李华用
+>主(207.2.121.113)：```vless://6981f016-b5af-46f4-91a3-ae97bce66f67@www.go2trip.tk:443?host=www.go2trip.tk&path=%2Fbanforbid&type=ws&encryption=none&security=tls&sni=www.go2trip.tk#v2ray-boomer-second```
+>
+>备(155.94.156.27)：```vless://6981f016-b5af-46f4-91a3-ae97bce66f67@go2trip.tk:443?host=go2trip.tk&path=%2Fbanforbid&type=ws&encryption=none&security=tls&sni=go2trip.tk#v2ray-pacificrack-second```
+
+- 尹俊超用
+> 主(207.2.121.113)：```vless://6981f016-b5af-46f4-91a3-ae97bce66f67@www.go2trip.ga:443?host=www.go2trip.ga&path=%2Fbanforbid&type=ws&encryption=none&security=tls&sni=www.go2trip.ga#v2ray-boomer-third```
+> 
+> 备(155.94.156.27)：```less://6981f016-b5af-46f4-91a3-ae97bce66f67@go2trip.ga:443?host=go2trip.ga&path=%2Fbanforbid&type=ws&encryption=none&security=tls&sni=go2trip.ga#v2ray-pacificrack-third```
