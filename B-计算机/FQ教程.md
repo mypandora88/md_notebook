@@ -59,4 +59,4 @@ bash <(curl -sL https://s.hijk.art/trojan-go.sh)
 - 尹俊超用
 > 主(207.2.121.113)：```vless://6981f016-b5af-46f4-91a3-ae97bce66f67@www.go2trip.ga:443?host=www.go2trip.ga&path=%2Fbanforbid&type=ws&encryption=none&security=tls&sni=www.go2trip.ga#v2ray-boomer-third```
 > 
-> 备(155.94.156.27)：```less://6981f016-b5af-46f4-91a3-ae97bce66f67@go2trip.ga:443?host=go2trip.ga&path=%2Fbanforbid&type=ws&encryption=none&security=tls&sni=go2trip.ga#v2ray-pacificrack-third```
+> 备(155.94.156.27)：```vless://6981f016-b5af-46f4-91a3-ae97bce66f67@go2trip.ga:443?host=go2trip.ga&path=%2Fbanforbid&type=ws&encryption=none&security=tls&sni=go2trip.ga#v2ray-pacificrack-third```
