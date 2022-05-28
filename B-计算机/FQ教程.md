@@ -47,7 +47,7 @@ bash <(curl -sL https://s.hijk.art/trojan-go.sh)
 - 我用
 >主(155.94.156.27)：```vless://6981f016-b5af-46f4-91a3-ae97bce66f67@www.go2travel.top:443?host=www.go2travel.top&path=%2Fbanforbid&type=ws&encryption=none&security=tls&sni=www.go2travel.top#v2ray-pacificrack-main```
 >
->备(207.2.121.113)：```vless://6981f016-b5af-46f4-91a3-ae97bce66f67@hotel.go2travel.top:443?host=hotel.go2travel.top&path=%2Fbanforbid&type=ws&encryption=none&security=tls&sni=hotel.go2travel.top#v2ray-boomer-main```
+>备(207.2.121.113)：```vless://6981f016-b5af-46f4-91a3-ae97bce66f67@go2travel.top:443?host=go2travel.top&path=%2Fbanforbid&type=ws&encryption=none&security=tls&sni=go2travel.top#v2ray-boomer-main```
 >
 >备(104.233.162.5)：```vless://6981f016-b5af-46f4-91a3-ae97bce66f67@flight.go2travel.top:443?host=flight.go2travel.top&path=%2Fbanforbid&type=ws&encryption=none&security=tls&sni=flight.go2travel.top#flight.go2travel.top```
 
